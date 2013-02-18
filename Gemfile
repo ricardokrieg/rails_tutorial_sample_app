@@ -18,3 +18,7 @@ group :test do
     gem 'rspec'
     gem 'webrat'
 end
+
+group :production do
+    gem 'pg'
+end
